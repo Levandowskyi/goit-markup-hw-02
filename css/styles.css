@@ -1,7 +1,14 @@
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Mono', monospace;
+    background-color: var(--background-color);
+    color: var(--body-color);
+}
+
+:root {
+    --background-color: #FFFFFF;
+    --body-color: #434455;
 }
 
 .main-title {
