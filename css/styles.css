@@ -6,10 +6,11 @@ body {
     color: var(--body-color);
 }
 
-<<<<<<< HEAD
-li{
+
+li,ul{
      list-style: none;
-=======
+}
+
 :root {
     --background-color: #FFFFFF;
     --body-color: #434455;
@@ -51,9 +52,6 @@ li{
     color: #434455;
 }
 
-ul {
-    list-style: none;
-}
 
 .order-service-btn {
     font-weight: 500;
@@ -75,5 +73,4 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
->>>>>>> 99d9cbb0a6bf995dd940cc5792b745501d6eea76
 }
