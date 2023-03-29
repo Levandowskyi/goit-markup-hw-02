@@ -11,6 +11,10 @@ li{
      list-style: none;
 }
 
+ul{
+     list-style: none;
+}
+
 :root {
     --background-color: #FFFFFF;
     --body-color: #434455;
