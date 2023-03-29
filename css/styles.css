@@ -3,6 +3,7 @@ body{
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
 }
-ul{
-    
+
+li{
+     list-style: none;
 }
