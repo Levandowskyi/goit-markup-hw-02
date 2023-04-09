@@ -10,6 +10,7 @@ body {
   --contact-link-color: #434455;
   --logo-web-color: #4d5ae5;
   --body-color: #434455;
+  --link-hover-focus-color:#404bbf;
 }
 
 .list {
@@ -37,4 +38,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--contact-link-color);
+}
+
+.navigation .link:hover, 
+.navigation .link:focus{
+color: var(--link-hover-focus-color);
 }
