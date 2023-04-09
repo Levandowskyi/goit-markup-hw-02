@@ -1,8 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto Mono', monospace;
   background-color: var(--background-color);
+  color: var(--body-color);
 }
 
 :root {
@@ -10,17 +9,18 @@ body {
   --link-color: #2e2f42;
   --contact-link-color: #434455;
   --logo-web-color: #4d5ae5;
+  --body-color: #434455;
 }
 
 .list {
   list-style: none;
 }
 
-.link{
+.link {
   text-decoration: none;
 }
 
-.logo {
+.navigation .logo {
   font-family: 'Raleway' sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -30,14 +30,11 @@ body {
   color: var(--logo-web-color);
 }
 
-.logo-color{
-  color: var(--link-color);
-
-}
-.navigation .link{
+.navigation .link {
   font-family: 'Roboto' sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--contact-link-color);
 }
