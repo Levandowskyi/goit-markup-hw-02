@@ -58,10 +58,27 @@ body {
   color: var(--contact-link-color);
 }
 
-.link:hover,
-.link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--link-hover-focus-color);
 }
+
+.address{
+  font-style: normal;
+}
+
+.address-link{
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--contact-link-color);
+
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--link-hover-focus-color);
+}
+
 
 /* Section 1 "Hero section" */
 
