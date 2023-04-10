@@ -35,16 +35,6 @@ body {
   text-decoration: none;
 }
 
-.navigation{
-    font-family: 'Raleway' sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--logo-web-color);
-}
-
 .logo {
   font-family: 'Raleway' sans-serif;
   font-weight: 800;
@@ -59,13 +49,13 @@ body {
   color: var(--header-logo-color);
 }
 
-.link {
+.nav-link {
   font-family: 'Roboto' sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--contact-link-color);
+  color: var(--link-color);
 }
 
 .nav-link:hover,
@@ -73,22 +63,20 @@ body {
   color: var(--link-hover-focus-color);
 }
 
-.address{
+.address {
   font-style: normal;
 }
 
-.address-link{
+.address-link {
   font-size: 16px;
   line-height: 1.5;
   color: var(--contact-link-color);
-
 }
 
 .address-link:hover,
 .address-link:focus {
   color: var(--link-hover-focus-color);
 }
-
 
 /* Section 1 "Hero section" */
 
