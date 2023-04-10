@@ -36,7 +36,7 @@ body {
 }
 
 .logo {
-  font-family: 'Releway' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -50,7 +50,7 @@ body {
 }
 
 .nav-link {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -84,7 +84,7 @@ body {
   background-color: var(--hero-background-color);
 }
 .hero-title {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -120,7 +120,7 @@ body {
 }
 
 .section-descr {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -156,7 +156,7 @@ body {
 }
 
 .footer-descr {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
