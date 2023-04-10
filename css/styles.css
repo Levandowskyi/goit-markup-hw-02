@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--background-color);
   color: var(--body-color);
 }
@@ -25,6 +25,10 @@ body {
   --footer-bg-color: #2e2f42;
   --footer-descr-color: #f4f4fd;
   --footer-logo-color: #f4f4fd;
+  --portfolio-btn-color:#4d5ae5;
+  --portfolip-bg-color: #F4F4FD;
+  --portfolio-btn-color-hover-focus:#FFFFFF;
+  --portfolio-btn-bg-color-hover-focus:#404BBF;
 }
 
 .list {
@@ -36,7 +40,7 @@ body {
 }
 
 .logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -50,7 +54,7 @@ body {
 }
 
 .nav-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -84,7 +88,7 @@ body {
   background-color: var(--hero-background-color);
 }
 .hero-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -120,7 +124,7 @@ body {
 }
 
 .section-descr {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -146,7 +150,7 @@ body {
 }
 
 .list-item {
-  background-color: var(--section-team-bg-color);
+  background-color: var(--section-team-item-bg-color);
 }
 
 /* Footer */
@@ -156,7 +160,7 @@ body {
 }
 
 .footer-descr {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -166,4 +170,37 @@ body {
 
 .footer-logo {
   color: var(--footer-logo-color);
+}
+
+/* Portfolio */
+
+.portfolio-btn{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--portfolio-btn-color);
+  background-color: var(--portfolip-bg-color);
+cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+  color: var(--portfolio-btn-color-hover-focus);
+  background-color: var(--portfolio-btn-bg-color-hover-focus);
+}
+.portfolio-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--section-title-color)
+}
+
+.portfolio-descr{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--section-paragraf-color);
 }
