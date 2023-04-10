@@ -10,7 +10,7 @@ body {
   --contact-link-color: #434455;
   --logo-web-color: #4d5ae5;
   --body-color: #434455;
-  --header-logo-color:#2e2f42;
+  --header-logo-color: #2e2f42;
   --link-hover-focus-color: #404bbf;
   --hero-background-color: #2e2f42;
   --hero-title-color: #ffffff;
@@ -21,10 +21,10 @@ body {
   --section-title-color: #2e2f42;
   --section-paragraf-color: #434455;
   --section-team-bg-color: #f4f4fd;
-  --section-team-item-bg-color:#FFFFFF;
-  --footer-bg-color:#2e2f42;
-  --footer-descr-color: #F4F4FD;
-  --footer-logo-color: #F4F4FD;
+  --section-team-item-bg-color: #ffffff;
+  --footer-bg-color: #2e2f42;
+  --footer-descr-color: #f4f4fd;
+  --footer-logo-color: #f4f4fd;
 }
 
 .list {
@@ -45,9 +45,8 @@ body {
   color: var(--logo-web-color);
 }
 
-.header-color{
+.header-color {
   color: var(--header-logo-color);
-
 }
 
 .link {
@@ -81,7 +80,6 @@ body {
 }
 
 .hero-btn {
-  font-family: 'Roboto' sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -132,27 +130,25 @@ body {
   background-color: var(--section-team-bg-color);
 }
 
-.list-item{
+.list-item {
   background-color: var(--section-team-bg-color);
-
 }
 
 /* Footer */
 
-.footer{
+.footer {
   background-color: var(--footer-bg-color);
 }
 
-.footer-descr{
+.footer-descr {
   font-family: 'Roboto' sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--footer-descr-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-descr-color);
 }
 
-.footer-logo{
+.footer-logo {
   color: var(--footer-logo-color);
-
 }
