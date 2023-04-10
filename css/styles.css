@@ -17,9 +17,10 @@ body {
   --hero-btn-background-color: #4d5ae5;
   --hero-btn-color: #ffffff;
   --hero-btn-background-color-hover-focus: #404bbf;
-  --section-title-color:#2e2f42;
-  --section-paragraf-color:#434455;
-
+  --section-title-color: #2e2f42;
+  --section-paragraf-color: #434455;
+  --section-team-bg-color: #f4f4fd;
+  --section-team-item-bg-color:#FFFFFF;
 }
 
 .list {
@@ -64,7 +65,7 @@ body {
   color: var(--link-hover-focus-color);
 }
 
-/* Hero section */
+/* Section 1 "Hero section" */
 
 .hero-section {
   background-color: var(--hero-background-color);
@@ -96,9 +97,9 @@ body {
   background-color: var(--hero-btn-background-color-hover-focus);
 }
 
-/* Section 1 */
+/* Section 2 "Advantages" */
 
-.section-title{
+.section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -106,22 +107,33 @@ body {
   color: var(--section-title-color);
 }
 
-.section-descr{
+.section-descr {
   font-family: 'Roboto' sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--section-paragraf-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--section-paragraf-color);
 }
 
-/* Section 2 */
+/* Section 3 "Work" */
 
-.title{
+.title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--section-title-color);
+}
+
+/* Section 4 "Team" */
+
+.section-team {
+  background-color: var(--section-team-bg-color);
+}
+
+.list-item{
+  background-color: var(--section-team-bg-color);
+
 }
