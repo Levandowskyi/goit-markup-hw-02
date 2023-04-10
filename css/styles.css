@@ -21,6 +21,8 @@ body {
   --section-paragraf-color: #434455;
   --section-team-bg-color: #f4f4fd;
   --section-team-item-bg-color:#FFFFFF;
+  --footer-bg-color:#2e2f42;
+  --footer-descr-color: #F4F4FD;
 }
 
 .list {
@@ -133,7 +135,22 @@ body {
   background-color: var(--section-team-bg-color);
 }
 
-.team-list{
+.list-item{
   background-color: var(--section-team-bg-color);
 
+}
+
+/* Footer */
+
+.footer{
+  background-color: var(--footer-bg-color);
+}
+
+.footer-descr{
+  font-family: 'Roboto' sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--footer-descr-color);
 }
